@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9336" started-at="2018-07-03T11:09:11Z" finished-at="2018-07-03T11:09:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9336" started-at="2018-07-03T11:09:11Z" finished-at="2018-07-03T11:09:20Z">
+      <class name="com.Bing.Testing.Testing">
+        <test-method status="PASS" signature="Step_01_Set_Path()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_01_Set_Path" is-config="true" duration-ms="4570" started-at="2018-07-03T11:09:11Z" finished-at="2018-07-03T11:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_01_Set_Path -->
+        <test-method status="PASS" signature="Step_02_Enter_Url()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_02_Enter_Url" duration-ms="2737" started-at="2018-07-03T11:09:16Z" finished-at="2018-07-03T11:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_02_Enter_Url -->
+        <test-method status="PASS" signature="Step_03_Selecting_Language()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_03_Selecting_Language" duration-ms="732" started-at="2018-07-03T11:09:18Z" finished-at="2018-07-03T11:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_03_Selecting_Language -->
+        <test-method status="PASS" signature="Step_04_Giving_Input()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_04_Giving_Input" duration-ms="63" started-at="2018-07-03T11:09:19Z" finished-at="2018-07-03T11:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_04_Giving_Input -->
+        <test-method status="FAIL" signature="Step_05_Swap_Text()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_05_Swap_Text" duration-ms="1130" started-at="2018-07-03T11:09:19Z" finished-at="2018-07-03T11:09:20Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<> but was:<Hello>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<> but was:<Hello>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.Bing.Action.Action.Swap_Values(Action.java:58)
+at com.Bing.Testing.Testing.Step_05_Swap_Text(Testing.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_05_Swap_Text -->
+        <test-method status="PASS" signature="Step_06_Clear_Text()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="Step_06_Clear_Text" duration-ms="82" started-at="2018-07-03T11:09:20Z" finished-at="2018-07-03T11:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_06_Clear_Text -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Bing.Testing.Testing@3bfdc050]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-03T11:09:20Z" finished-at="2018-07-03T11:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Bing.Testing.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
